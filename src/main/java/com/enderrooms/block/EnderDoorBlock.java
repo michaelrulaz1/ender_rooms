@@ -16,7 +16,8 @@ import net.minecraft.world.World;
 public class EnderDoorBlock extends DoorBlock {
 
     public EnderDoorBlock(AbstractBlock.Settings settings) {
-        super(BlockSetType.IRON, settings);
+        // OAK allows hand-opening; stone sounds are set on the Settings in ModBlocks
+        super(BlockSetType.OAK, settings);
     }
 
     /**

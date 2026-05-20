@@ -7,6 +7,7 @@ import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
 import net.minecraft.block.piston.PistonBehavior;
+import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroups;
@@ -23,6 +24,7 @@ public class ModBlocks {
             key -> new EnderDoorBlock(
                     AbstractBlock.Settings.copy(Blocks.IRON_DOOR)
                             .registryKey(key)
+                            .sounds(BlockSoundGroup.STONE)
                             .pistonBehavior(PistonBehavior.IGNORE)));
 
     private static Block registerBlock(String name, Function<RegistryKey<Block>, Block> factory) {
