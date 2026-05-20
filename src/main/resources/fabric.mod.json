@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "ender_rooms",
+  "version": "${version}",
+  "name": "Ender Rooms",
+  "description": "Adds the Ender Door and Enhanced Eye of Ender to explore mysterious ender rooms.",
+  "authors": [
+    "EnderRoomsDev"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.enderrooms.EnderRoomsMod"
+    ]
+  },
+  "mixins": [
+    "ender_rooms.mixins.json"
+  ],
+  "accessWidener": "ender_rooms.accesswidener",
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "fabric-api": "*",
+    "minecraft": "~1.21.4",
+    "java": ">=21"
+  }
+}

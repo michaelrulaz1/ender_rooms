@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "EP",
+    "EP",
+    "EP"
+  ],
+  "key": {
+    "E": { "item": "minecraft:ender_pearl" },
+    "P": { "item": "minecraft:purpur_block" }
+  },
+  "result": {
+    "id": "ender_rooms:ender_door",
+    "count": 3
+  }
+}

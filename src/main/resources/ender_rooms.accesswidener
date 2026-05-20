@@ -1,0 +1,5 @@
+accessWidener v2 named
+
+# EyeOfEnderEntity private fields needed by EyeOfEnderEntityMixin
+accessible field net/minecraft/entity/EyeOfEnderEntity lifespan I
+accessible field net/minecraft/entity/EyeOfEnderEntity dropsItem Z
